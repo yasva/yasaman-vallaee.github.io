@@ -5,6 +5,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yasaman Vallaee | Portfolio</title>
+
+    <!-- Exo 2 från Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css" />
 </head>
 
@@ -12,8 +18,12 @@
 <body>
 
     <header class="hero">
-        <h1>Yasaman Vallaee</h1>
-        <p>Software Engineering Student</p>
+        <div class="hero-inner">
+            <div class="logo">
+                <span class="logo-mark" aria-hidden="true">YV</span>
+                <span class="logo-text">Yasaman Vallaee</span>
+            </div>
+        </div>
     </header>
 
     <main>
@@ -28,14 +38,50 @@
 
         <section>
             <h2>Projects</h2>
-            <p>Projects will be added here step by step.</p>
+            <article>
+                <h3>Conway’s Game of Life</h3>
+
+                <p>
+                    Console-based implementation of Conway’s Game of Life developed as the final
+                    project for the course <em>Programming Fundamentals (DT179G)</em> at
+                    Mid Sweden University.
+                </p>
+
+                <p>
+                    The project demonstrates core programming concepts such as data structures,
+                    control flow, modular design, and algorithmic thinking. The simulation follows
+                    Conway’s rules for cellular automata and runs step-by-step in the terminal.
+                </p>
+
+                <p>
+                    The implementation was extended incrementally to meet higher grade requirements,
+                    including recursive simulation, loading initial states from file, status logging,
+                    and aging of cells.
+                </p>
+
+                <p>
+                    <strong>Tech:</strong> Python, CLI, Algorithms, Data Structures
+                </p>
+
+                <p>
+                    <strong>Course:</strong> DT179G – Programming Fundamentals (MIUN)
+                </p>
+
+                <p>
+                    <a href="#" target="_blank" rel="noopener noreferrer"
+                        title="View Game of Life project on GitHub">
+                        View project on GitHub
+                    </a>
+                </p>
+            </article>
         </section>
 
         <section>
             <h2>Education</h2>
             <p>
-                B.Sc. Software Engineering – Mid Sweden University (ongoing)<br />
-                Web Programming – Blekinge Institute of Technology
+                B.Sc. Software Engineering – Mid Sweden University <br />
+                Web Programming – Blekinge Institute of Technology <br /><br />
+                Expected graduation: 2027
             </p>
         </section>
 
