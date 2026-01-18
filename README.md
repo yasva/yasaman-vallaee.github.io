@@ -13,7 +13,8 @@ Each project includes a short description, technical context, and links to sourc
 ## Background
 * Bachelor of Science in Software Engineering – Mid Sweden University  
 * Web Programming – Blekinge Institute of Technology
-    Expected graduation: 2027
+
+Expected graduation: 2027
 
 ## Contact
 GitHub: https://github.com/yasva
